@@ -1,6 +1,7 @@
-<h1>Criteria for work acceptance by the tutor Project</h1>
+<h1>Criteria for work acceptance by the tutor</h1>
 
-<b>«A1»</b> Refactoring of the project HTML-code is done using the BEM methodology.
+<h2>Project</h2>
+<b>«A1»</b> Refactoring of the project HTML-code is done using the BEM methodology.</h1>
 
 <b>«A2»</b> Refactoring of the project CSS code is done using the SASS preprocessor.
 
@@ -19,7 +20,7 @@ folder. For example, \_page-header.scss, \_logo.scss, etc.
 <b>«A7»</b> In the index.html and portfolio.html files, a minified style sheet, main.min.css from
 the css folder, is linked.
 
-<h1>Markup</h1>
+<h2>Markup</h2>
 <b>«B1»</b> Proper naming of box classes according to the BEM methodology.
 
 <b>«B2»</b> Proper naming of element classes according to the BEM methodology.
@@ -30,7 +31,7 @@ the css folder, is linked.
 
 <b>«B5»</b> BEM class names are clear and descriptive, all in English.
 
-<h1>Styling</h1> 
+<h2>Styling</h2> 
 <b>«C1»</b> Selector nesting is used.
 
 <b>«C2»</b> Maximum selector nesting is 2 levels.
