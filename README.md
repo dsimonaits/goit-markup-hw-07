@@ -1,8 +1,8 @@
 <h1>Criteria for work acceptance by the tutor Project</h1>
 
-«A1» Refactoring of the project HTML-code is done using the BEM methodology.
+<b>«A1» Refactoring of the project HTML-code is done using the BEM methodology.</b>
 
-«A2» Refactoring of the project CSS code is done using the SASS preprocessor.
+<b></b>«A2» Refactoring of the project CSS code is done using the SASS preprocessor.
 
 «A3» In the root of the project, there is a sass folder, which contains all the preprocessor style
 sheets.
