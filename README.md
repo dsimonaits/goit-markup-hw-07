@@ -1,34 +1,36 @@
-Критерии приёма работы наставником Проект «A1» Выполнен рефакторинг HTML-кода проекта используя
-методологию BEM.
+<h1>Criteria for work acceptance by the tutor Project</h1>
 
-«A2» Выполнен рефакторинг CSS-кода проекта используя препроцессор SASS.
+«A1» Refactoring of the project HTML-code is done using the BEM methodology.
 
-«A3» В корне проекта создана папка sass, в которой лежат все файлы стилей препроцессора.
+«A2» Refactoring of the project CSS code is done using the SASS preprocessor.
 
-«A4» В папке sass есть файл main.scss - главный файл в котрый импортируются все SASS-фрагменты
-(partials, файлы \_имя.scss).
+«A3» In the root of the project, there is a sass folder, which contains all the preprocessor style
+sheets.
 
-«A5» Палитра цветов макета и наборы шрифтов вынесены в переменные в файле variables.scss, который
-лежит в папке sass/utils. Можно использовать CSS или SASS переменные (по желанию).
+«A4» In the sass folder, there is a main.scss file, the main file into which all SASS fragments are
+imported (partials, \_name.scss files).
 
-«A6» Для каждого компонента создан отдельный файл-фрагмент стилей в папке sass/components. Напримпер
-\_page-header.scss, \_logo.scss и т. д.
+«A5» Layout color palette and font sets are presented as variables in the variables.scss file in the
+sass/utils folder. CSS or SASS variables can be used (optionally).
 
-«A7» В файлах index.html и portfolio.html подключен минифицированный файл стилей main.min.css из
-папки css.
+«A6» For each component, a separate fragment style sheet is created in the sass/components folder.
+For example, \_page-header.scss, \_logo.scss, etc.
 
-Разметка «B1» Правильное именование классов блоков по методологии BEM.
+«A7» In the index.html and portfolio.html files, a minified style sheet, main.min.css from the css
+folder, is linked.
 
-«B2» Правильное именование классов элементов по методологии BEM.
+Markup «B1» Proper naming of box classes according to the BEM methodology.
 
-«B3» Правильное именование классов модификаторов по методологии BEM.
+«B2» Proper naming of element classes according to the BEM methodology.
 
-«B4» Правильное именование классов примесей по методологии BEM.
+«B3» Proper naming of modifier classes according to BEM methodology.
 
-«B5» Имена классов по методологии BEM понятные и описательные, на английском языке.
+«B4» Proper naming of mixin classes according to BEM methodology.
 
-Оформление «C1» Использована вложенность селекторов.
+«B5» BEM class names are clear and descriptive, all in English.
 
-«C2» Максимальная вложенность селекторов - 2 уровня.
+Styling «C1» Selector nesting is used.
 
-«C3» Оператор конкатенации (&) использован для описания псевдоклассов и псевдоэлементов.
+«C2» Maximum selector nesting is 2 levels.
+
+«C3» The concatenation operator (&) is used to describe pseudo-classes and pseudo-elements.
