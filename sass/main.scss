@@ -1,7 +1,20 @@
-@import "./base/common";
-
-
-
-@import "./layout/body";
-
-@import "./utils/variables"
+    @import "./utils/variables";
+    @import "./utils/visually-hidden";
+  
+    @import "./base/common";
+    @import "./base/container";
+    @import "./base/section";
+  
+    @import "./layout/body";
+    @import "./layout/header";
+    @import "./layout/hero";
+    @import "./layout/advantages";
+   
+    @import "./components/main-title";
+    @import "./components/modal-button";
+    @import "./components/filter-button";
+    @import "./components/modal__close-button";
+    @import "./components/logo";
+    @import "./components/nav/nav";
+    @import "./components/nav/site-nav";
+    @import "./components/nav/contacts-nav"

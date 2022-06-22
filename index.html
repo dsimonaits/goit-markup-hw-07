@@ -10,105 +10,106 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+    <link rel="stylesheet" href="./css/main.min.css">
     <link rel="stylesheet" href="./css/styles.css" />
-    <link rel="stylesheet" href="./dist/css/main.min.css">
-
 </head>
 <body class="body">
 
-<!--Шапка сайта-->
+<!--Header-->
     <header class="page-header">
         <div class="container">
-            <nav class="main-nav">
-                <a href="./index.html" class="header-logo">Web<span class="header-logo-span">Studio</span></a>
+            <nav class="nav main-nav">
+                <a href="./index.html" class="logo header-logo">Web<span class="header-logo-span">Studio</span></a>
                     
-                <ul class="site-nav list">
-                    <li class="item"><a href="./index.html" class="site-nav-link active">Студия</a></li>
-                    <li class="item"><a href="./portfolio.html" class="site-nav-link">Портфолио</a></li>
-                    <li class="item"><a href="./" class="site-nav-link">Контакты</a></li>
+                <ul class="list nav site-nav">
+                    <li class="item site-nav__item"><a href="./index.html" class="link site-nav__link active">Студия</a></li>
+                    <li class="item site-nav__item"><a href="./portfolio.html" class="link site-nav__link">Портфолио</a></li>
+                    <li class="item site-nav__item"><a href="./" class="link site-nav__link">Контакты</a></li>
                 </ul>
             </nav>
                     
-            <ul class="auth-nav list">
-                <li class="item ">
-                    <a href="mailto:info@devstudio.com" class="auth-nav-link">
-                        <svg class="icon-envelope auth-nav-icon" width="16px" height="12px">
-                        <use href="./images/icons.svg#icon-envelope"></use>
+            <ul class="list nav contacts-nav">
+                <li class="item contacts-nav__item">
+                    <a href="mailto:info@devstudio.com" class="link contacts-nav__link">
+                        <svg class="icon-envelope contacts-nav__icon" width="16px" height="12px">
+                            <use href="./images/icons.svg#icon-envelope"></use>
                         </svg>
-                    info@devstudio.com</a>
+                        info@devstudio.com</a>
                 </li>
-                <li class="item">
-                    <a href="tel:+380961111111" class="auth-nav-link">
-                        <svg class="icon-smartphone auth-nav-icon" width="10px" height="16px">
-                        <use href="./images/icons.svg#icon-smartphone"></use>
+                <li class="item contacts-nav__item">
+                    <a href="tel:+380961111111" class="link contacts-nav__link">
+                        <svg class="icon-smartphone contacts-nav__icon" width="10px" height="16px">
+                            <use href="./images/icons.svg#icon-smartphone"></use>
                         </svg>
-                    +38 096 111 11 11</a>
+                        +38 096 111 11 11</a>
                 </li>
             </ul>
         </div>
     </header>
 
- <!--Основной контент-->
+ <!--Main-->
     <main>
 
-    <!--Герой-->
+    <!--Hero-->
         <section class="hero">
             <div class="container">
                 <div class="hero-banner">
-                    <h1 class="hero-title">Эффективные решения <br /> для вашего бизнеса</h1>
-                    <button type="button" class="hero-button" data-modal-open>Заказать услугу</button>
+                    <h1 class="hero-banner__title">Эффективные решения <br /> для вашего бизнеса</h1>
+                    <button type="button" class="modal-button" data-modal-open>Заказать услугу</button>
                 </div>
             </div>
         </section>
 
-    <!--Особенности-->
+    <!--Advantages-->
         <section class="section">
-            <div class="container our-advantages">
-                <h2 class="main-titel advantages-main-title visuali-hidden">Наши особенности</h2>
-                <ul class="list advantages-list">
-                    <li class="item advantages-item">
-                    <div class="advantages-box">
+            <div class="container advantages">
+                <h2 class="main-title visually-hidden">Наши особенности</h2>
+                <ul class="list advantages__list">
+
+                    <li class="item advantages__item">
+                    <div class="box advantages__box">
                         <svg class="icon" width="70" height="70">
                         <use href="./images/icons.svg#icon-antenna"></use>
                         </svg>
                     </div>
-
-                    <h3 class="advantages-title">Внимание к деталям</h3>
-                    <p class="advantages-text">
+                    <h3 class="title advantages__title">Внимание к деталям</h3>
+                    <p class="text advantages__text">
                     Идейные соображения, а также начало повседневной работы по формированию позиции.
                     </p>
                     </li>
-                    <li class="item advantages-item">
-                    <div class="advantages-box">
+
+                    <li class="item advantages__item">
+                    <div class="box advantages__box">
                         <svg class="icon"  width="70" height="70">
                         <use href="./images/icons.svg#icon-clock"></use>
                         </svg>
                     </div>
-                    <h3 class="advantages-title">Пунктуальность</h3>
-                    <p class="advantages-text">
+                    <h3 class="title advantages__title">Пунктуальность</h3>
+                    <p class="text advantages__text">
                     Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
                     </p>
                     </li>
-                    <li class="item advantages-item">
-                    <div class="advantages-box">
+
+                    <li class="item advantages__item">
+                    <div class="box advantages__box">
                         <svg class="icon"  width="70" height="70">
                         <use href="./images/icons.svg#icon-diagram"></use>
                         </svg>
                     </div>
-
-                    <h3 class="advantages-title">Планирование</h3>
-                    <p class="advantages-text">
+                    <h3 class="title advantages__title">Планирование</h3>
+                    <p class="text advantages__text">
                     Равным образом консультация с широким активом в значительной степени обуславливает.
                     </p>
                     </li>
-                    <li class="item advantages-item">
-                    <div class="advantages-box">
+
+                    <li class="item advantages__item">
+                    <div class="box advantages__box">
                         <svg class="icon"  width="70" height="70">
                         <use href="./images/icons.svg#icon-astronaut"></use>
                         </svg>
                     </div>
-                    <h3 class="advantages-title">Современные технологии</h3>
-                    <p class="advantages-text">
+                    <h3 class="title advantages__title">Современные технологии</h3>
+                    <p class="text advantages__text">
                     Значимость этих проблем настолько очевидна, что реализация плановых заданий.
                     </p>
                     </li>
@@ -116,27 +117,27 @@
             </div>
         </section>
 
-    <!--Деятельность-->
+    <!--Our-work-->
         <section class="section our-work">
             <div class="container">
-            <h2 class="main-titel work-main-title">Чем мы занимаемся</h2>
-            <ul class="list work-list">
-                <li class="item work-item">
-                    <div  class="work-item-wrapper">
+            <h2 class="main-title">Чем мы занимаемся</h2>
+            <ul class="list our-work__list">
+                <li class="item our-work__item">
+                    <div  class="wrapper our-work__wrapper">
                         <img src="./images/img1.jpg" alt="Пишем код любой сложности" width="370" height="294">
-                        <p class="work-text">Десктопные приложения</p>
+                        <p class="text our-work__text">Десктопные приложения</p>
                     </div>
                 </li>
-                <li class="item work-item">
-                    <div  class="work-item-wrapper">
+                <li class="item our-work__item">
+                    <div  class="wrapper our-work__wrapper">
                         <img src="./images/img2.jpg" alt="Создаём мобильные предложения" width="370" height="294">    
-                        <p class="work-text">Мобильные приложения</p>
+                        <p class="text our-work__text">Мобильные приложения</p>
                     </div>
                 </li>
-                <li class="item work-item">
-                    <div  class="work-item-wrapper">
+                <li class="item our-work__item">
+                    <div  class="wrapper our-work__wrapper">
                         <img src="./images/img3.jpg" alt="Выполняем дизанейрские работы" width="370" height="294">
-                        <p class="work-text">Дизайнерские решения</p>
+                        <p class="text our-work__text">Дизайнерские решения</p>
                     </div>
                 </li>
             </ul>
@@ -146,7 +147,7 @@
     <!--Команда-->
         <section class="section ourteam-section">
             <div class="container our-team">
-                <h2 class="main-titel our-team-main-title">Наша команда</h2>
+                <h2 class="main-title our-team-main-title">Наша команда</h2>
                 <ul class="list team-list">
                     <li class="item team-item">
                         <img src="./images/img.jpg" alt="Игорь Демьяненко" width="270" height="260">
@@ -311,7 +312,7 @@
     <!--Постоянные клиенты-->
         <section class="section clients-section">
             <div class="container">
-                <h2 class="main-titel clients-main-titel">Постоянные клиенты</h2>
+                <h2 class="main-title clients-main-title">Постоянные клиенты</h2>
                 <ul class="list clients-list">
                     <li class="clients-item">
                         <a href="" class="link clients-link">
@@ -364,7 +365,7 @@
     <footer class="footer">
         <div class="container">
             <div class="container_contacts">
-                <a class="footer-logo" href="./index.html">Web<span class="footer-logo span">Studio</span></a>
+                <a class="logo footer-logo" href="./index.html">Web<span class="footer-logo span">Studio</span></a>
                 <address class="footer-address">
                     <ul class="address list">
                         <li class="item-address">
@@ -431,8 +432,8 @@
     <!-- Modal -->
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
-            <button class="modal-close-button" type="button" data-modal-close>
-            <svg class="close-icon" width="18px" height="18px">
+            <button class="modal__close-button" type="button" data-modal-close>
+            <svg class="modal__close-icon" width="18px" height="18px">
                 <use href="./images/icons.svg#icon-close"></use>
             </svg>
             </button>
@@ -487,7 +488,7 @@
                 </ul>
 
 
-                <input type="checkbox" class="modal-contact-field-policy-checkbox visuali-hidden" name="user_policy_agreement" id="user_policy" required>
+                <input type="checkbox" class="modal-contact-field-policy-checkbox visually-hidden" name="user_policy_agreement" id="user_policy" required>
                 <label for="user_policy" class="modal-contact-field-policy">Соглашаюсь с рассылкой и принимаю &nbsp<a class="terms-of-an-agreement" href="">Условия договора</a></label>
 
                 <button type="submit" class="modal-contact-form-button">Отправить</button>  
