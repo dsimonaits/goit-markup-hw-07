@@ -1,4 +1,5 @@
 .subscribe__button {
+    @extend %button;
     margin-left: 12px;
 }
 
