@@ -9,9 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/main.min.css">
-    <link rel="stylesheet" href="./css/styles.css" />
 </head>
 <body class="body">
 
@@ -19,7 +17,7 @@
     <header class="page-header">
         <div class="container">
             <nav class="nav main-nav">
-                <a href="./index.html" class="logo header-logo">Web<span class="header-logo-span">Studio</span></a>
+                <a href="./index.html" class="logo header-logo">Web<span class="logo-span_dark">Studio</span></a>
                     
                 <ul class="list nav site-nav">
                     <li class="item site-nav__item"><a href="./index.html" class="link site-nav__link active">Студия</a></li>
@@ -363,18 +361,18 @@
 
 <!--Подвал-->
     <footer class="footer">
-        <div class="container">
-            <div class="container_contacts">
-                <a class="logo footer-logo" href="./index.html">Web<span class="footer-logo span">Studio</span></a>
-                <address class="footer-address">
-                    <ul class="address list">
-                        <li class="item-address">
+        <div class="container footer__container">
+            <div class="contacts">
+                <a class="logo footer-logo" href="./index.html">Web<span class="logo-span_light">Studio</span></a>
+                <address class="address">
+                    <ul class="list address__list">
+                        <li class="item address__item">
                             <a href="https://goo.gl/maps/AirsbdC57sYQPZAz8" target="_blank" rel="noopener noreferrer"
-                                class="footer-link address">г. Киев, пр-т Леси Украинки, 26
+                                class="link address__link address__link_white">г. Киев, пр-т Леси Украинки, 26
                             </a>
                         </li>
-                        <li class="item-address"><a href="mailto:info@dexample.com" class="footer-link link">info@example.com</a></li>
-                        <li class="item-address"><a href="tel:+380991111111" class="footer-link link">+38 099 111 11 11</a></li>
+                        <li class="item address__item"><a href="mailto:info@dexample.com" class="link address__link">info@example.com</a></li>
+                        <li class="item address__item"><a href="tel:+380991111111" class="link address__link">+38 099 111 11 11</a></li>
                     </ul>
                 </address>               
             </div>
@@ -438,60 +436,61 @@
             </svg>
             </button>
             
-            <form class="modal-contact-form">
-                <b class="modal-contact-form-title">Оставьте свои данные, мы вам перезвоним</b>
+            <form class="form modal-contact__form">
+                <b class="title modal-contact__title">Оставьте свои данные, мы вам перезвоним</b>
                 
-                <ul class="modal-contact-form-list">
-                    <li class="modal-contact-form-list-item">
-                        <label class="modal-contact-field">
-                            <span class="modal-contact-field-type">Имя</span>
-                            <span class="modal-contact-field-wrapper">
-                                <input type="text" name="user_name" class="modal-contact-input" required autofocus>
-                                <svg class="modal-contact-input-icon person" width="18px" height="18px">
+                <ul class="list modal-contact__list">
+
+                    <li class="item modal-contact__item">
+                        <label class="field">
+                            <span class="field__type">Имя</span>
+                            <span class="field__wrapper">
+                                <input type="text" name="user_name" class="input field__input" required autofocus>
+                                <svg class="icon input__icon person" width="18px" height="18px">
                                     <use href="./images/icons.svg#icon-person"></use>
                                 </svg>
                             </span>
                         </label>
                     </li>
              
-                    <li class="modal-contact-form-list-item">
-                        <label class="modal-contact-field">
-                            <span class="modal-contact-field-type">Телефон</span>
-                            <span class="modal-contact-field-wrapper">
-                                <input type="tel" name="user_tel_number" class="modal-contact-input" pattern="[0-9]*" required>
-                                <svg class="modal-contact-input-icon tel" width="18px" height="18px">
+                    <li class="item modal-contact__item">
+                        <label class="field">
+                            <span class="field__type">Телефон</span>
+                            <span class="field__wrapper">
+                                <input type="tel" name="user_tel_number" class="input field__input" pattern="[0-9]*" required>
+                                <svg class="icon input__icon tel" width="18px" height="18px">
                                     <use href="./images/icons.svg#icon-phone"></use>
                                 </svg>
                             </span>
                         </label>
                     </li>
 
-                    <li class="modal-contact-form-list-item">
-                        <label class="modal-contact-field">
-                            <span class="modal-contact-field-type">Почта</span>
-                            <span class="modal-contact-field-wrapper">
-                                <input type="email" name="user_email" class="modal-contact-input"
+                    <li class="item modal-contact__item">
+                        <label class="field">
+                            <span class="field__type">Почта</span>
+                            <span class="field__wrapper">
+                                <input type="email" name="user_email" class="input field__input"
                                     pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
-                                <svg class="modal-contact-input-icon mail" width="18px" height="18px">
+                                <svg class="icon input__icon mail" width="18px" height="18px">
                                     <use href="./images/icons.svg#icon-email"></use>
                                 </svg>
                             </span>
                         </label>
                     </li>
 
-                    <li class="modal-contact-form-list-item">
-                        <label class="modal-contact-field">
-                            <span class="modal-contact-field-type">Комментарий</span>
-                            <textarea class="modal-contact-message" name="user_message" placeholder="Введите текст"></textarea>
+                    <li class="item modal-contact__item">
+                        <label class="field">
+                            <span class="field__type">Комментарий</span>
+                            <textarea class="field_message" name="user_message" placeholder="Введите текст"></textarea>
                         </label>
                     </li>
                 </ul>
 
 
-                <input type="checkbox" class="modal-contact-field-policy-checkbox visually-hidden" name="user_policy_agreement" id="user_policy" required>
-                <label for="user_policy" class="modal-contact-field-policy">Соглашаюсь с рассылкой и принимаю &nbsp<a class="terms-of-an-agreement" href="">Условия договора</a></label>
+                <input type="checkbox" class="checkbox policy__checkbox visually-hidden" name="user_policy_agreement" id="user_policy" required>
+                <label for="user_policy" class="field policy__field">Соглашаюсь с рассылкой и принимаю &nbsp;<a class="terms-of-an-agreement" href="">Условия договора</a></label>
 
-                <button type="submit" class="modal-contact-form-button">Отправить</button>  
+                <button type="submit" class="button modal-contact__button">Отправить</button>  
         </form>
         </div>
     </div>
