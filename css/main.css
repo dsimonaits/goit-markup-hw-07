@@ -764,8 +764,8 @@ img {
 
 .advantages__box {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   height: 120px;
   border-radius: 4px;
   background-color: var(--extra-color);
